@@ -55,7 +55,7 @@ function WordButton({ word, fullCandidateSize }) {
   // word = "washingtonian";
   return (
     <Toggle
-      className={`${styles.growShrink} select-none`}
+      className={`${styles.growShrink} select-none image-button`}
       variant="outline"
       pressed={isSelected}
       onClick={flipSelection}

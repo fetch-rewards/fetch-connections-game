@@ -112,6 +112,11 @@ h1 {
   border: 0;
 }
 
+.image-button{
+  height: 6rem;
+  width: 6rem;
+}
+
 /*
     Keyframe animations
   */
