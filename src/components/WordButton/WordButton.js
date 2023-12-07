@@ -60,12 +60,13 @@ function WordButton({ word, fullCandidateSize }) {
       pressed={isSelected}
       onClick={flipSelection}
     >
-      <p
-        style={{ fontSize: getFontSize(word) }}
-        className="font-space-mono uppercase sm:text-xs md:text-xs"
-      >
-        {word}
-      </p>
+      <img src={word}></img>
+      {/*<p*/}
+      {/*  style={{ fontSize: getFontSize(word) }}*/}
+      {/*  className="font-space-mono uppercase sm:text-xs md:text-xs"*/}
+      {/*>*/}
+      {/*  {word}*/}
+      {/*</p>*/}
     </Toggle>
   );
 }
