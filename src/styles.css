@@ -118,6 +118,23 @@ h1 {
   width: 6rem;
 }
 
+.image-div{
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.category{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.final-button{
+  height: 5rem;
+  width: 5rem;
+}
+
 /*
     Keyframe animations
   */
