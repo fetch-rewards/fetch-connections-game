@@ -124,6 +124,10 @@ h1 {
   padding: 10px;
 }
 
+.first_col{
+  padding-left: 1rem;
+}
+
 .category{
   content: "";
   clear: both;

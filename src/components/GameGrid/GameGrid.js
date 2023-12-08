@@ -50,22 +50,24 @@ export function SolvedWordRow({ ...props }) {
     <animated.div style={springProps}>
       {!isImageAvailable ? (
         <div style={{ backgroundColor: color, borderRadius: 8 }}>
-          <p className="font-bold pt-2 pl-4">{props.category}</p>
-          <div className="category">
-            <div className="image-div">
-              <img src={props.words[0]} className="final-button" />
-            </div>
-            <div className="image-div">
-              <img src={props.words[1]} className="final-button" />
-            </div>
-            <div className="image-div">
-              <img src={props.words[2]} className="final-button" />
-            </div>
-            <div className="image-div">
-              <img src={props.words[3]} className="final-button" />
-            </div>
-          </div>
-          {/*<p className="font-thin pb-2 pl-4">{props.words.join(", ")}</p>*/}
+          <p className="font-bold pt-2" style={{textAlign: "center"}}>{props.category}</p>
+          <table style ={{width: "100%"}}>
+            <tr>
+              <td className="first_col">
+                <img src={props.words[0]} className="final-button" />
+              </td>
+              <td>
+                <img src={props.words[1]} className="final-button" />
+              </td>
+              <td>
+                <img src={props.words[2]} className="final-button" />
+              </td>
+              <td>
+                <img src={props.words[3]} className="final-button" />
+              </td>
+            </tr>
+          </table>
+         <br/>
         </div>
       ) : (
         <Popover>
@@ -80,12 +82,25 @@ export function SolvedWordRow({ ...props }) {
                   View More
                 </Badge>
               )}
-              <p className="font-bold pt-2 pl-4">{props.category}</p>
-              <img src={props.words[0]} />
-              <img src={props.words[1]} />
-              <img src={props.words[2]} />
-              <img src={props.words[4]} />
-              {/*<p className="font-thin pb-2 pl-4">{props.words.join(", ")}</p>*/}
+              <p className="font-bold pt-2" style={{textAlign: "center"}}>{props.category}</p>
+              <table style ={{width: "100%"}}>
+                <tr>
+                  <td className="first_col">
+                    <img src={props.words[0]} className="final-button" />
+                  </td>
+                  <td>
+                    <img src={props.words[1]} className="final-button" />
+                  </td>
+                  <td>
+                    <img src={props.words[2]} className="final-button" />
+                  </td>
+                  <td>
+                    <img src={props.words[3]} className="final-button" />
+                  </td>
+                </tr>
+              </table>
+              <br/>
+
             </div>
           </PopoverTrigger>
           <PopoverContent>
