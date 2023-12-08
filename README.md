@@ -1,3 +1,12 @@
+# Fetch Connections
+
+Match the brands that belong to the same business!
+
+Built for the 2023 Frostbyte Hackathon.
+
+Rest of the readme comes from the forked repo :)
+
+
 # Connections (React, Tailwind, Shadcn/ui)
 
 This is a clone of the [NYT Connections Game](https://www.nytimes.com/games/connections). Which itself seems to be an unacknowledged clone of the British game [`Only Connect`](https://kotaku.com/new-york-times-connections-only-connect-puzzle-wordle-1850553072).
